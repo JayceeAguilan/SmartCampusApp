@@ -1,0 +1,73 @@
+﻿Folder PATH listing for volume Jaycee
+Volume serial number is 72EE-E4E0
+C:\USERS\JAYCEE\ANDROIDSTUDIOPROJECTS\SMARTCAMPUSAPP\APP\SRC\MAIN\JAVA\COM\EXAMPLE\SMARTCAMPUSAPP
+ª   MainActivity.kt
+ª   SmartCampusApp.kt
+ª   
++---core
+ª   +---navigation
+ª   ª       AppNavGraph.kt
+ª   ª       Routes.kt
+ª   ª       
+ª   +---ui
+ª   ª   +---components
+ª   ª   ª       AppTopBar.kt
+ª   ª   ª       LoadingPlaceholder.kt
+ª   ª   ª       PrimaryButton.kt
+ª   ª   ª       TextFieldOutlined.kt
+ª   ª   ª       
+ª   ª   +---theme
+ª   ª           Color.kt
+ª   ª           Theme.kt
+ª   ª           Type.kt
+ª   ª           
+ª   +---util
+ª           UiText.kt
+ª           Validators.kt
+ª           
++---feature
+ª   +---auth
+ª   ª   +---state
+ª   ª   ª       LoginUiState.kt
+ª   ª   ª       
+ª   ª   +---ui
+ª   ª   ª       LoginScreen.kt
+ª   ª   ª       
+ª   ª   +---vm
+ª   ª           LoginViewModel.kt
+ª   ª           
+ª   +---campusinfo
+ª   ª   +---state
+ª   ª   ª       CampusInfoUiState.kt
+ª   ª   ª       
+ª   ª   +---ui
+ª   ª   ª       CampusInfoDetailsScreen.kt
+ª   ª   ª       CampusInfoScreen.kt
+ª   ª   ª       
+ª   ª   +---vm
+ª   ª           CampusInfoViewModel.kt
+ª   ª           
+ª   +---dashboard
+ª       +---state
+ª       ª       DashboardUiState.kt
+ª       ª       
+ª       +---ui
+ª       ª       DashboardScreen.kt
+ª       ª       
+ª       +---vm
+ª               DashboardViewModel.kt
+ª               
++---model
+ª       CampusInfoItem.kt
+ª       DashboardItem.kt
+ª       
++---sampledata
+ª       CampusInfoSample.kt
+ª       UserSample.kt
+ª       
++---ui
+    +---theme
+            Color.kt
+            Theme.kt
+            Type.kt
+            
