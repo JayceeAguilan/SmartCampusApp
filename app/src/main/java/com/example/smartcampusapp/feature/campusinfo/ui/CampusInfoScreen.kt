@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import com.example.smartcampusapp.core.ui.components.LoadingPlaceholder
 import androidx.compose.material3.Scaffold
@@ -34,6 +35,7 @@ import com.example.smartcampusapp.ui.theme.SmartCampusAppTheme
  * @param onBack Callback invoked when back button is pressed
  * @param onDepartmentClick Callback invoked when a department is clicked
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun CampusInfoScreen(
     uiState: CampusInfoUiState,
